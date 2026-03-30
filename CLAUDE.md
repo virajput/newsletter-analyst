@@ -11,19 +11,19 @@ with actionable growth recommendations.
 - **docx-writer MCP** — use `mcp__docx-writer__write_docx` to generate output
 
 ## Newsletter Details (Pre-configured)
-- URL: https://qubytes.substack.com
-- Archive: https://qubytes.substack.com/archive?sort=top
-- Subscribers: 500+
+- URL: [YOUR NEWSLETTER URL]
+- Archive: [YOUR NEWSLETTER URL]/archive?sort=top
+- Subscribers: [YOUR SUBSCRIBER COUNT]
 - Frequency: Weekly
-- Topics: AI/ML, agent architectures, enterprise AI, LLM research simplified
-- Goal: Grow subscribers, establish agentic AI thought leadership, launch paid tier
+- Topics: [YOUR NICHE]
+- Goal: [YOUR GOAL]
 
 ---
 
 ## Execution Phases — Follow In Order, Do Not Skip
 
 ### Phase 0: Homepage Overview
-1. Navigate to https://qubytes.substack.com using browser tool
+1. Navigate to [YOUR NEWSLETTER URL] using browser tool
 2. Take a screenshot
 3. Extract and store:
    - Content categories and sections
@@ -36,7 +36,7 @@ with actionable growth recommendations.
 ### Phase 1: Deep Content Analysis
 
 #### 1a — Navigate Archive
-1. Navigate to https://qubytes.substack.com/archive?sort=top
+1. Navigate to [YOUR NEWSLETTER URL]/archive?sort=top
 2. Take a screenshot
 3. Identify top 7–10 post cards by engagement order
 
@@ -109,7 +109,7 @@ Also identify:
 
 ## Output: Write DOCX
 After completing all phases, call `mcp__docx-writer__write_docx` with:
-- Filename: `neural_blueprint_growth_analysis.docx`
+- Filename: [NAME OF YOUR OUTPUT FILE]
 - Sections covering all of the following:
   1. Executive Summary
   2. Audience Profile
