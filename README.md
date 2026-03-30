@@ -16,13 +16,12 @@ A Claude Code agent that performs a full deep-dive analysis of a Substack newsle
 newsletter-analyst/
 ├── CLAUDE.md               # Agent instructions (execution phases, hard rules)
 ├── run_analysis.sh         # Entry point — runs the agent with MCP tools loaded
-├── generate_report.py      # Standalone script to write the .docx without MCP
-├── .claude/
+├── claude/
 │   └── mcp.json            # MCP server config (firecrawl + docx-writer)
 ├── tools/
 │   └── write_docx.py       # MCP server that exposes write_docx tool
 └── output/
-    └── neural_blueprint_growth_analysis.docx
+    └── growth_analysis.docx
 ```
 
 ## Prerequisites
